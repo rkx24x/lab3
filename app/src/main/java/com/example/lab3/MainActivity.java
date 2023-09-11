@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), SecondActivity.class);
             intent.putExtra("message_key", str);
            startActivity(intent);
-/////
+
         });
     }
 
